@@ -15,7 +15,7 @@ if __name__ == "__main__":
     if not glfw.init():
         glfw.set_window_should_close(window, True)
 
-    width = 600
+    width = 10000
     height = 600
 
     window = glfw.create_window(width, height, "Ventanita", None, None)
